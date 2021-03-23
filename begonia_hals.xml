@@ -3,7 +3,7 @@
     <remote name="PotatoDevices" fetch="https://github.com/PotatoDevices" />
     <remote name="Descendant-Devices" fetch="https://github.com/Descendant-Devices" />
     
-    <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="PotatoDevices" revision="dumaloo-release" />
+    <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="PotatoDevices" revision="dumaloo-release" />
     <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="Descendant-Devices" revision="eleven" />
     <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="PotatoDevices" revision="dumaloo-release" />
     <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="PotatoDevices" revision="dumaloo-release" />
