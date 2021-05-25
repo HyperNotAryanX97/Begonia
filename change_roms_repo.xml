@@ -4,16 +4,15 @@
         <remote  name="PixelExperience" fetch="https://github.com/PixelExperience" />
         <remote  name="LineageOS" fetch="https://github.com/LineageOS" />
 
-	<remove-project name="packages_services_Telephony" />
+	<remove-project name="android_packages_services_Telephony" />
 	<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="TheMalachite" revision="ruby"/>
 
-	<remove-project name="packages_services_Telecomm" />
+	<remove-project name="android_packages_services_Telecomm" />
 	<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="TheMalachite" revision="ruby"/>
 	
-        <remove-project name="frameworks_opt_telephony" />
+        <remove-project name="android_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="PixelExperience" revision="eleven"/>
 	
-        <remove-project name="packages_providers_TelephonyProvider" />
 	<project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="LineageOS" revision="lineage-18.1"/>
 	
 </manifest>
