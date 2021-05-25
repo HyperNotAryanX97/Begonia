@@ -12,7 +12,8 @@
 	
         <remove-project name="android_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="PixelExperience" revision="eleven"/>
-	
+
+	<remove-project name="platform/packages/providers/TelephonyProvider" />
 	<project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="LineageOS" revision="lineage-18.1"/>
 	
 </manifest>
