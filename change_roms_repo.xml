@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="HyperNotAryanX97" fetch="https://github.com/HyperNotAryanX97" />
+
+        #Frameworks base
+	<remove-project name="android_frameworks_base" />
+	<project path="frameworks/base" name="android_frameworks_base-1" remote="HyperNotAryanX97" revision="eleven"/>
+
+        #opt_net_ims
+	<remove-project name="platform/frameworks/opt/net/ims" />
+	<project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="HyperNotAryanX97" revision="main"/>
+	
+        #opt_net_wifi
+        <remove-project name="android_frameworks_opt_net_wifi" />
+	<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi-1" remote="HyperNotAryanX97" revision="eleven"/>
+
+</manifest>
