@@ -8,7 +8,7 @@
 
         #opt_net_ims
 	<remove-project name="platform/frameworks/opt/net/ims" />
-	<project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="HyperNotAryanX97" revision="main"/>
+	<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="HyperNotAryanX97" revision="main"/>
 	
         #opt_net_wifi
         <remove-project name="android_frameworks_opt_net_wifi" />
