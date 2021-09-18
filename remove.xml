@@ -1,0 +1,2 @@
+  <!-- Blur Fix -->
+  <remove-project name="android_frameworks_native" />
